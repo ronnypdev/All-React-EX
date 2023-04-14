@@ -1,11 +1,11 @@
 import Container from "./components/Container"
+import Carousel from "./components/base/Carousel"
 
 function Home() {
 
-
   return (
     <Container>
-      <h1>This is an React App</h1>
+      <Carousel />
     </Container>
   )
 }
