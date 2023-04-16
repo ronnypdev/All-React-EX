@@ -1,11 +1,11 @@
 import Container from "./components/Container"
-import Carousel from "./components/base/Carousel"
+import Accordion from "./components/base/Accordion"
 
 function Home() {
 
   return (
     <Container>
-      <Carousel />
+      <Accordion />
     </Container>
   )
 }
