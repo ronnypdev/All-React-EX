@@ -1,13 +1,11 @@
 import Container from "./components/Container"
-import Accordion from "./components/base/Accordion"
-import ImageLoader from "./components/ImageLoader"
+import MyButton from "./components/base/MyButton"
 
 function Home() {
 
   return (
     <Container>
-      <Accordion />
-      <ImageLoader />
+      <MyButton/>
     </Container>
   )
 }
